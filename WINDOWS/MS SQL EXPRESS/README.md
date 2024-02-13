@@ -73,3 +73,7 @@ EXEC XP_CMDSHELL 'net use v: \\192.168.56.101\SMBfold /user:UserName Password'
 ```
 EXEC XP_CMDSHELL 'Dir v:'
 ```
+
+Теперь по бекапам:
+1. Заходим в MS SQL, создаем sql-запрос
+В целом, от локального не сильно и отличается, только путь: \\192.168.56.101\winsmb\SQL SERVER\SQL SERVER (SQL SERVER заранее созданная папка), создается файл под названием SQL SERVER_ИМЯ_ДАТА
